@@ -1,0 +1,161 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    height: 15vh;
+
+    padding: 0px 4rem;
+
+    background-color: var(--bg-color-first);
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LOGO AREA */
+.logo-area
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+}
+.logo-image
+{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 50%;
+}
+.logo-name
+{
+    color: var(--text-color-first);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* MENU */
+.desktop-menu 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 4rem;
+}
+.desktop-menu-link
+{
+    color: var(--text-color-second);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.desktop-menu-link:hover
+{
+    color: var(--text-color-third);
+    text-decoration: underline;
+
+    text-underline-offset: 0.4em;
+    text-decoration-color: var(--text-color-third);
+    text-decoration-thickness: 0.2em;
+}
+
+.hamburguer-icon
+{
+    width: 2rem;
+    fill: var(--text-color-first);
+    cursor: pointer;
+
+    display: none;
+}
+
+.mobile-sidebar
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+
+    width: 16rem;
+    padding: 3rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8rem;
+    
+    background-color: var(--bg-color-second);
+
+    display: none;
+}
+
+.mobile-sidebar-open
+{
+    display: flex;
+}
+
+.js-close-icon
+{
+    width: 2rem;
+    fill: var(--text-color-first);
+    cursor: pointer; 
+    display: inline-block;
+}
+
+.mobile-sidebar-links-area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+}
+
+.mobile-sidebar-link
+{
+    color: var(--text-color-second);
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+
+    padding: 1.5rem 0rem;
+}
+
+.mobile-sidebar-link:hover
+{
+    background-color: var(--bg-color-third);
+}
+
+
+@media (max-width: 1024px)
+{
+    .desktop-menu
+    {
+        display: none;
+    }
+    .hamburguer-icon
+    {
+        display: inline-block;
+    }
+}
+
+.hamburguer-icon-hidden
+{
+    display: none;
+}

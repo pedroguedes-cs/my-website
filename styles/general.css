@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: var(--font);
+    padding: 0px 4rem;
+    background-color: var(--bg-color-first);
+}
+
+p
+{
+    color: var(--text-color-second);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+
