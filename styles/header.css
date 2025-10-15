@@ -65,11 +65,11 @@ header
 }
 .desktop-menu-link:hover
 {
-    color: var(--text-color-third);
+    color: var(--primary-color);
     text-decoration: underline;
 
     text-underline-offset: 0.4em;
-    text-decoration-color: var(--text-color-third);
+    text-decoration-color: var(--primary-color);
     text-decoration-thickness: 0.2em;
 }
 

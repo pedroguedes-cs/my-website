@@ -13,4 +13,6 @@
     --text-color-first: hsl(0, 0%, 5%);
     --text-color-second: hsl(0, 0%, 10%);
     --text-color-third: hsl(0, 0%, 25%);
+
+    --primary-color: hsl(210, 100%, 55%);
 }
