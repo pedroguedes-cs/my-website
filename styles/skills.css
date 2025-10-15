@@ -44,19 +44,31 @@
 
 .skill-card:hover
 {
-    transform: translateY(-1rem);
+    transform: translateY(-0.5rem);
     border-color: var(--primary-color);
+}
+
+.skill-card:hover .skill-name
+{
+    color: var(--primary-color);
+}
+
+.skill-card:hover .skill-icon
+{
+    fill: var(--primary-color);
 }
 
 .skill-name
 {
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--text-color-first);
 }
 
 .skill-icon
 {
     width: 10rem;
+    fill: var(--text-color-first);
 }
 
 

@@ -17,13 +17,14 @@
     object-fit: cover;
     object-position: top;
 
+    border: solid 0.5rem var(--bg-color-first);
     border-radius: 16%;
 }
 
 .hero-my-image:hover
 {
     transform: translateY(-0.2rem);
-    box-shadow: 0rem 0.5rem 1rem 0.05em var(--primary-color);
+    border: solid 0.5rem var(--primary-color);
 }
 
 .hero-content-container
@@ -76,7 +77,7 @@
 .hero-contact-button
 {
     font-family: (--font);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--bg-color-first);
 
@@ -91,13 +92,14 @@
 .hero-contact-button:hover
 {
     transform: translateY(-0.2rem);
-    box-shadow: 0rem 0.5em 1rem 0.05em var(--primary-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .hero-projects-button
 {
     font-family: (--font);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--text-color-first);
 
@@ -112,5 +114,6 @@
 .hero-projects-button:hover
 {
     transform: translateY(-0.2rem);
-    box-shadow: 0rem 0.5em 1rem 0.05em var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
