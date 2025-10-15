@@ -2,18 +2,25 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 html
 {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body
 {
     font-family: var(--font);
-    padding: 0px 4rem;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    padding-right: 4rem;
+    padding-left: 4rem;
     background-color: var(--bg-color-first);
 }
 
@@ -21,15 +28,3 @@ p
 {
     color: var(--text-color-second);
 }
-
-a
-{
-    text-decoration: none;
-}
-
-li
-{
-    list-style: none;
-}
-
-
