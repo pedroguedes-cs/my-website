@@ -19,8 +19,8 @@ body
     font-family: var(--font);
     padding-top: 25vh;
     padding-bottom: 0;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
     background-color: var(--bg-color-first);
 }
 

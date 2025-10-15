@@ -1,0 +1,90 @@
+#about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    margin-top: 8rem;
+}
+
+.about-header
+{
+    display: inline-block;
+    font-size: 2rem;
+    color: var(--text-color-first);
+}
+
+.about-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    gap: 1rem;
+}
+
+.about-content-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    max-width: 30%;
+}
+
+.about-university-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border: 0.2rem solid var(--text-color-first);
+    border-radius: 1rem;
+
+    padding: 1.5em;
+}
+
+.about-university-card-icon
+{
+    width: 3rem;
+}
+
+.about-university-card-text
+{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-university-card-text span
+{
+    color: var(--text-color-third);
+    font-weight: 400;
+}
+
+.about-me-text
+{
+    font-size: 1.5rem;
+    max-width: 80%;
+}
+
+.about-me-text strong
+{
+    font-weight: 600;
+}
+
+.university-image
+{
+    width: 50rem;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 1rem;
+}
