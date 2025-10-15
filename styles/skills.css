@@ -36,9 +36,9 @@
     gap: 2rem;
 
     padding: 2rem;
-
+    aspect-ratio: 1 / 1;
     border: 0.2rem solid var(--border-color);
-    border-radius: 1rem;
+    border-radius: 16%;
 
 }
 

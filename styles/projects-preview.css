@@ -1,0 +1,135 @@
+#projects-preview
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    margin-top: 8rem;
+}
+
+.projects-preview-header
+{
+    font-size: 2rem;
+    color: var(--text-color-first);
+}
+
+.projects-preview-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.project-preview-card
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+
+    background-color: var(--text-color-first);
+    padding: 2rem 0rem;
+
+    border-radius: 1rem;
+}
+
+.project-preview-card-image
+{
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 16%;
+}
+
+.project-preview-card-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 1rem;
+
+    width: 80%;
+}
+
+.project-preview-card-name
+{
+    width: 100%;
+    text-align: center;
+
+    color: var(--bg-color-first);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project-preview-card-description
+{
+    width: 100%;
+    text-align: center;
+
+    color: var(--bg-color-second);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.projects-preview-github-button
+{
+    background-color: var(--bg-color-first);
+
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color-first);
+
+    padding: 0.7em 1em;
+    border: none;
+    border-radius: 0.5em;
+
+    cursor: pointer;
+}
+
+.project-preview-card:hover
+{
+    transform: translateY(-0.5rem);
+    background-color: var(--primary-color);
+}
+
+.projects-preview-all-projects-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    font-family: (--font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--bg-color-first);
+
+    background-color: var(--text-color-first);
+    padding: 1.5em 2em;
+    border: none;
+    border-radius: 0.5em;
+
+    cursor: pointer;
+}
+
+.arrow-icon-button
+{
+    width: 2rem;
+    fill: var(--bg-color-first);
+}
+
+.projects-preview-all-projects-button:hover
+{
+    transform: translateY(-0.2rem);
+    background-color: var(--primary-color);
+}
