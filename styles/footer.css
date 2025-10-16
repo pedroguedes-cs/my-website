@@ -43,6 +43,7 @@ footer
     border: none;
     border-radius: 16%;
 }
+
 .footer-projects-button
 {
     display: flex;
@@ -57,6 +58,18 @@ footer
 
     cursor: pointer;
 }
+.footer-projects-button:hover
+{
+    background-color: var(--primary-color);
+}
+.footer-projects-button:hover p
+{
+    color: var(--bg-color-first);
+}
+.footer-projects-button:hover .arrow-icon-footer-button
+{
+    fill: var(--bg-color-first);
+}
 .footer-projects-button p
 {
     font-family: (--font);
@@ -65,7 +78,7 @@ footer
     color: var(--text-color-second);
 }
 
-.arrowIconFooterButton
+.arrow-icon-footer-button
 {
     width: 2rem;
     fill: var(--text-color-second);
@@ -86,14 +99,15 @@ footer
     font-size: 1.8rem;
     font-weight: 600;
 }
-.sitemap-list
-{
-
-}
 .sitemap-item
 {
     color: var(--bg-color-first);
     font-size: 1.5rem;
+    cursor: pointer;
+}
+.sitemap-item:hover
+{
+    color: var(--primary-color);
 }
 
 /* FOOTER CONTACT AREA*/
