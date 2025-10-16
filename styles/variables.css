@@ -15,4 +15,6 @@
     --text-color-third: hsl(0, 0%, 25%);
 
     --primary-color: hsl(210, 100%, 55%);
+
+    --success: hsl(150, 60%, 45%);
 }
