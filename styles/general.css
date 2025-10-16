@@ -18,14 +18,36 @@ html
 body
 {
     font-family: var(--font);
-    padding-top: 25vh;
+    padding-top: 4vh;
     padding-bottom: 0;
     padding-right: 8rem;
     padding-left: 8rem;
     background-color: var(--bg-color-first);
+    user-select: none;
+
+    min-height: 100vh;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+    width: 100%;
+}
+
+section
+{
+    min-height: 100vh;
+    padding-top: 15vh;
 }
 
 p
 {
     color: var(--text-color-second);
 }
+
+

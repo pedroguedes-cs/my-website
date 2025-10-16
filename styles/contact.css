@@ -1,0 +1,134 @@
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    width: 100%;
+}
+
+.contact-header
+{
+    font-size: 2rem;
+    color: var(--text-color-first);
+}
+
+.contact-content-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 3rem;
+}
+
+/* SOCIAL MEDIAS */
+.social-media-container
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+
+    gap: 1rem;
+}
+.social-media
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: var(--text-color-first);
+
+    padding: 1.5em 2em;
+    border: none;
+    border-radius: 0.5em;
+
+    cursor: pointer;
+}
+.social-media-icon
+{
+    width: 4rem;
+    fill: var(--bg-color-first);
+}
+.social-media-username
+{
+    color: var(--bg-color-first);
+
+    font-size: 1.5rem;
+}
+
+/* FORMS */
+.contact-form-area
+{
+    flex: 1;
+}
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.input-area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 1rem;
+}
+.contact-input-name, .contact-input-email, .contact-input-message
+{
+    width: 100%;
+
+    background-color: var(--bg-color-first);
+
+    font-family: var(--font);
+    color: var(--text-color-first);
+    font-size: 1.5rem;
+
+    padding: 0.7em 1em;
+    border: 0.2em solid var(--text-color-first);
+    border-radius: 0.5em;
+}
+.contact-input-name:focus, .contact-input-email:focus, .contact-input-message:focus
+{
+    outline: none;
+    border-color: var(--primary-color);
+}
+.contact-input-name::placeholder, .contact-input-email::placeholder, .contact-input-message::placeholder
+{
+    font-family: var(--font);
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.contact-input-message
+{
+    min-height: 10rem;
+    resize: vertical;
+}
+.contact-submit-button
+{
+    font-family: var(--font);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color-first);
+    
+    background-color: var(--bg-color-first);
+
+    padding: 0.7em 1em;
+    border: 0.2em solid var(--text-color-first);
+    border-radius: 0.5em;
+
+    cursor: pointer;
+}
