@@ -61,6 +61,7 @@
 .social-media:hover
 {
     background-color: var(--primary-color);
+    transform: translateX(-0.6rem);
 }
 .social-media-icon
 {
@@ -75,6 +76,7 @@
 }
 .email-contact-container-copied
 {
+    position: relative;
     background-color: var(--success);
 }
 .email-contact-container-copied:hover
@@ -94,6 +96,31 @@
 {
     width: 2rem;
     fill: var(--bg-color-first); 
+}
+
+.email-tooltip
+{
+    font-family: var(--font);
+    color: var(--bg-color-first);
+    font-size: 1rem;
+    font-weight: 500;
+
+    background-color: var(--success);
+    padding: 1em;
+    border: none;
+    border-radius: 0.4em;
+
+    white-space: nowrap;
+
+    position: absolute;
+    left: -8rem;
+    display: none;
+
+    pointer-events: none;
+}
+.email-tooltip-show
+{
+    display: block;
 }
 
 /* FORMS */
@@ -159,6 +186,8 @@
     padding: 0.7em 1em;
     border: 0.2em solid var(--text-color-first);
     border-radius: 0.5em;
+
+    white-space: nowrap;
 
     cursor: pointer;
 }

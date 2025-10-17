@@ -40,10 +40,13 @@ footer
     object-fit: cover;
     object-position: top;
 
-    border: none;
+    border: 0.4rem solid var(--text-color-second);
     border-radius: 16%;
 }
-
+.footer-image:hover
+{
+    border: 0.4rem solid var(--primary-color);
+}
 .footer-projects-button
 {
     display: flex;
@@ -56,11 +59,15 @@ footer
     border: none;
     border-radius: 0.5em;
 
+    white-space: nowrap;
+
     cursor: pointer;
 }
 .footer-projects-button:hover
 {
     background-color: var(--primary-color);
+    transform: translateY(-0.2rem);
+    
 }
 .footer-projects-button:hover p
 {
@@ -113,14 +120,22 @@ footer
 /* FOOTER CONTACT AREA*/
 .footer-contact
 {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 .footer-social-media-icon
 {
     width: 4rem;
     fill: var(--bg-color-first);
+    cursor: pointer;
 }
-
+.footer-social-media-icon:hover
+{
+    fill: var(--primary-color);
+}
 
 /* COPYRIGHT AREA*/
 .copyright-area

@@ -91,6 +91,8 @@
     border: none;
     border-radius: 0.5em;
 
+    white-space: nowrap;
+
     cursor: pointer;
 }
 
@@ -121,6 +123,8 @@
     padding: 1.5em 2em;
     border: none;
     border-radius: 0.5em;
+
+    white-space: nowrap;
 
     cursor: pointer;
 }
