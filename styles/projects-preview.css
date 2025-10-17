@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 
     background-color: var(--text-color-first);
     padding: 2rem 0rem;
@@ -39,7 +39,7 @@
 
 .project-preview-card-image
 {
-    width: 80%;
+    width: 60%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 
@@ -55,7 +55,7 @@
     align-items: center;  
     gap: 1rem;
 
-    width: 80%;
+    width: 60%;
 }
 
 .project-preview-card-name

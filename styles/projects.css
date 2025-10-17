@@ -1,0 +1,111 @@
+.hero-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.projects-h1
+{
+    font-size: 3rem;
+    color: var(--text-color-first);
+    text-align: center;
+}
+.hero-arrow-down
+{
+    width: 4rem;
+
+    animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float
+{
+    0%, 100%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(1rem);
+    }
+}
+
+#highlights-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    border: solid pink;
+}
+.highlights-container
+{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 6rem;
+
+    padding: 3rem;
+    border: solid 0.2rem var(--gold);
+    border-radius: 1rem;
+}
+.category-header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.category-header-icon
+{
+    width: 3rem;
+    fill: var(--gold);
+}
+.category-header-name
+{
+    font-size: 2rem;
+    color: var(--gold);
+}
+.projects-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+.project-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+.project-image
+{
+
+}
+.project-content
+{
+
+}
+.project-content-name
+{
+
+}
+.project-card-content-description
+{
+
+}
+.project-card-github-button
+{
+
+}

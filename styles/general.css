@@ -32,7 +32,6 @@ main
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
 
     width: 100%;
 }
