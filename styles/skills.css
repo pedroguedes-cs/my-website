@@ -69,28 +69,3 @@
     width: 10rem;
     fill: var(--text-color-first);
 }
-
-
-
-/* SPECIFICS */
-.cplusplus-icon
-{
-    fill: hsl();
-}
-.javascript-icon
-{
-    fill: hsl();
-}
-.html-icon
-{
-    fill: hsl();
-}
-.css-icon
-{
-    fill: hsl();
-}
-
-.git-icon
-{
-    fill: hsl();
-}
