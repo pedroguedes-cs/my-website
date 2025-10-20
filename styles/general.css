@@ -38,9 +38,7 @@ main
 
 section
 {
-    width: 100%;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    width: 90%;
     min-height: 100vh;
     padding-top: 15vh;
 }

@@ -103,7 +103,7 @@
     object-fit: cover;
     object-position: center;
 
-    border: 0.4rem solid var(--bg-color-first);
+    border: 0.5rem solid var(--bg-color-first);
     border-radius: 1rem;
 }
 
