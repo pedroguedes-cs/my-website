@@ -1,4 +1,4 @@
-export let projectsData = 
+export const projectsData = 
 [
 {
     categoryName: 'c++',
