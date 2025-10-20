@@ -40,12 +40,12 @@ footer
     object-fit: cover;
     object-position: top;
 
-    border: 0.4rem solid var(--text-color-second);
+    border: 0.5rem solid var(--text-color-second);
     border-radius: 16%;
 }
 .footer-image:hover
 {
-    border: 0.4rem solid var(--primary-color);
+    border: 0.5rem solid var(--primary-color);
 }
 .footer-projects-button
 {

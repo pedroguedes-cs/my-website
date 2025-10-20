@@ -82,8 +82,10 @@
 
 .about-me-text
 {
-    font-size: 1.5rem;
     max-width: 80%;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .about-me-text strong

@@ -1,3 +1,8 @@
+main
+{
+    padding-bottom: 15vh;
+}
+
 .hero-section
 {
     display: flex;
@@ -58,7 +63,7 @@
     gap: 6rem;
 
     padding: 3rem 0rem;
-    border: solid 0.8rem var(--text-color-first);
+    border: solid 0.5rem var(--text-color-first);
     border-radius: 1rem;
 }
 .highlights-section-container
