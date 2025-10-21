@@ -18,8 +18,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 1rem;
+}
+@media (max-width: 768px)
+{
+    .about-container
+    {
+        flex-direction: column;
+        gap: 3rem;
+        align-items: stretch;
+    }
 }
 
 .about-content-container
@@ -31,6 +40,14 @@
     gap: 3rem;
 
     max-width: 30%;
+}
+@media (max-width: 768px)
+{
+    .about-content-container
+    {
+        max-width: 100%;
+        align-items: stretch;
+    }
 }
 
 .about-university-card
@@ -87,6 +104,13 @@
     text-align: justify;
     line-height: 1.6;
 }
+@media (max-width: 768px)
+{
+    .about-me-text
+    {
+        max-width: 100%;
+    }
+}
 
 .about-me-text strong
 {
@@ -100,13 +124,19 @@
 
 .university-image
 {
-    width: 50rem;
-    aspect-ratio: 2 / 1;
+    width: 40%;
     object-fit: cover;
     object-position: center;
 
     border: 0.5rem solid var(--bg-color-first);
     border-radius: 1rem;
+}
+@media (max-width: 768px)
+{
+    .university-image
+    {
+        width: 100%;
+    }
 }
 
 .university-image:hover

@@ -7,6 +7,13 @@
 
     gap: 3rem;
 }
+@media (max-width: 768px) /* MOBILE */
+{
+    #hero
+    {
+        flex-direction: column;
+    }
+}
 
 .hero-my-image
 {
@@ -92,12 +99,21 @@
     align-items: center;
     gap: 1rem;
 }
+@media (max-width: 768px)
+{
+    .hero-buttons-container
+    {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
 
 .hero-contact-button
 {
-    font-family: (--font);
+    width: 100%;
+    font-family: var(--font);
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--bg-color-first);
 
     background-color: var(--text-color-first);
@@ -119,14 +135,15 @@
 
 .hero-projects-button
 {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 
-    font-family: (--font);
+    font-family: var(--font);
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--text-color-first);
 
     background-color: var(--bg-color-first);
