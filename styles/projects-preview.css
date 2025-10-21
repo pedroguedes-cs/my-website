@@ -6,24 +6,26 @@
     align-items: center;
     gap: 4rem;
 }
-
 .projects-preview-header
 {
     font-size: 2rem;
     color: var(--text-color-first);
 }
-
 .projects-preview-container
 {
+    width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
     gap: 2rem;
+    position: relative;
 }
-
 .project-preview-card
 {
+    width: 100%;
+    height: 100%;
+
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -35,8 +37,25 @@
     padding: 2rem 0rem;
 
     border-radius: 1rem;
-}
 
+    display: none;
+}
+.project-preview-card-show
+{
+    display: flex;
+    animation: appear 2s ease-in-out;
+}
+@keyframes appear
+{
+    0% 
+    {
+        filter: brightness(60%);
+    }
+    100%
+    {
+        filter: brightness(100%);
+    }
+}
 .project-preview-card-image
 {
     width: 60%;
@@ -103,8 +122,35 @@
 
 .project-preview-card:hover
 {
-    transform: translateY(-0.5rem);
     background-color: var(--primary-color);
+}
+
+.control-button
+{
+    position: absolute;
+    top: 50%;
+
+    background-color: var(--text-color-second);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 16%;
+
+    cursor: pointer;
+}
+.previous-button
+{
+    left: 0;
+    transform: translateY(-50%) translateX(-50%);
+}
+.next-button
+{
+    right: 0;
+    transform: translateY(-50%) translateX(50%);
+}
+.chevronIcon
+{
+    width: 3rem;
+    fill: var(--text-color-third);
 }
 
 .projects-preview-all-projects-button
