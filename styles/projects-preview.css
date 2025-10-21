@@ -50,13 +50,13 @@
 .project-preview-card-show
 {
     display: flex;
-    animation: appear 2s ease-in-out;
+    animation: appear 1s ease-in-out;
 }
 @keyframes appear
 {
     0% 
     {
-        filter: brightness(10%);
+        filter: brightness(50%);
     }
     100%
     {

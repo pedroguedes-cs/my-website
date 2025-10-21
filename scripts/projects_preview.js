@@ -55,7 +55,7 @@ function calculateCardHeight()
 
     cards.forEach((card) => {
         card.style.display = 'flex';
-        const currentHeight = card.scrollHeight;
+        const currentHeight = card.offsetHeight;
         if (currentHeight > maxHeight) 
         {
             maxHeight = currentHeight;
@@ -65,6 +65,8 @@ function calculateCardHeight()
 
     cardsContainer.style.height = `${maxHeight}px`;
 }
+
+window.addEventListener('resize', calculateCardHeight);
 
 calculateCardHeight();
 
