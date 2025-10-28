@@ -2,6 +2,8 @@
 
 :root
 {
+    --menu-size: 10vh;
+
     --font: "Poppins", sans-serif;
 
     --bg-color-first: hsl(0, 0%, 95%);

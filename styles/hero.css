@@ -4,8 +4,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     gap: 3rem;
+
+    padding: 0% 5%;
+
+    scroll-margin-top: 0;
 }
 @media (max-width: 768px) /* MOBILE */
 {

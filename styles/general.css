@@ -12,14 +12,12 @@ html
 {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 18vh;
     overflow-x: hidden;
 }
 
 body
 {
     font-family: var(--font);
-    padding-top: 4vh;
     padding-bottom: 0;
     background-color: var(--bg-color-first);
     user-select: none;
@@ -34,15 +32,23 @@ main
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15vh;
 
-    padding-bottom: 15vh;
+    padding-top: var(--menu-size);
 }
 
 section
 {
-    width: 90%;
-    min-height: 100vh;
+    width: 100%;
+    padding: var(--menu-size) 5%;
+    min-height: 90vh;
+    background-color: lightgreen;
+
+    scroll-margin-top: var(--menu-size); /* Prevent overlap */
+}
+
+section:nth-child(even)
+{
+    background-color: hsl(0, 0%, 70%);
 }
 
 p

@@ -1,5 +1,7 @@
 footer
 {
+    min-height: 90vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +20,7 @@ footer
     justify-content: space-between;
     align-items: center;
 
-    padding: 0rem 8rem;
+    padding: var(--menu-size) 5%;
 }
 @media (max-width: 768px)
 {
@@ -195,7 +197,7 @@ footer
 }
 .copyright-message
 {
-    width: 60%;
+    width: 70%;
     font-size: 1.5rem;
     color: var(--bg-color-first);
     text-align: center;

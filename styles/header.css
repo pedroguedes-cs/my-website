@@ -11,7 +11,7 @@ header
     right: 0;
     z-index: 999;
 
-    height: 15vh;
+    height: var(--menu-size);
 
     padding: 0px 5%;
 
