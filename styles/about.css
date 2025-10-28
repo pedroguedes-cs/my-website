@@ -23,15 +23,6 @@
     align-items: stretch;
     gap: 1rem;
 }
-@media (max-width: 768px)
-{
-    .about-container
-    {
-        flex-direction: column;
-        gap: 3rem;
-        align-items: stretch;
-    }
-}
 
 .about-content-container
 {
@@ -42,14 +33,6 @@
     gap: 3rem;
 
     max-width: 30%;
-}
-@media (max-width: 768px)
-{
-    .about-content-container
-    {
-        max-width: 100%;
-        align-items: stretch;
-    }
 }
 
 .about-university-card
@@ -84,20 +67,7 @@
     font-weight: 400;
 }
 
-.about-university-card:hover
-{
-    border: 0.2rem solid var(--primary-color);
-}
 
-.about-university-card:hover .about-university-card-icon
-{
-    fill: var(--primary-color);
-}
-
-.about-university-card:hover .about-university-card-text
-{
-    color: var(--primary-color);
-}
 .about-me-text
 {
     max-width: 80%;
@@ -109,23 +79,12 @@
     font-weight: 400;
     color: var(--text-color-first);
 }
-@media (max-width: 768px)
-{
-    .about-me-text
-    {
-        max-width: 100%;
-    }
-}
 
 .about-me-text strong
 {
     font-weight: 600;
 }
 
-.about-me-text:hover strong
-{
-    color: var(--primary-color);
-}
 
 .university-image
 {
@@ -136,15 +95,4 @@
     border: 0.5rem solid var(--bg-color-first);
     border-radius: 1rem;
 }
-@media (max-width: 768px)
-{
-    .university-image
-    {
-        width: 100%;
-    }
-}
 
-.university-image:hover
-{
-    border: 0.4rem solid var(--primary-color);
-}

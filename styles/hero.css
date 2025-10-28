@@ -10,13 +10,6 @@
 
     scroll-margin-top: 0;
 }
-@media (max-width: 768px) /* MOBILE */
-{
-    #hero
-    {
-        flex-direction: column;
-    }
-}
 
 .hero-my-image
 {
@@ -33,10 +26,6 @@
     animation: float 8s ease-in-out infinite;
 }
 
-.hero-my-image:hover
-{
-    border: solid 0.5rem var(--primary-color);
-}
 
 @keyframes float
 {
@@ -103,14 +92,6 @@
     align-items: center;
     gap: 1rem;
 }
-@media (max-width: 768px)
-{
-    .hero-buttons-container
-    {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
 
 .hero-contact-button
 {
@@ -130,21 +111,7 @@
     cursor: pointer;
 }
 
-.hero-contact-button:hover
-{
-    transform: translateY(-0.2rem);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-}
 
-@media (hover: none)
-{
-    .hero-contact-button
-    {
-        background-color: var(--primary-color);
-        border-color: var(--primary-color);
-    }
-}
 .hero-projects-button
 {
     width: 100%;
@@ -172,29 +139,4 @@
 {
     width: 2rem;
     fill: var(--text-color-first);
-}
-
-.hero-projects-button:hover
-{
-    transform: translateY(-0.2rem);
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-}
-
-.hero-projects-button:hover .arrow-icon-hero-button
-{
-    fill: var(--primary-color);
-}
-
-@media (hover: none)
-{
-    .hero-projects-button
-    {
-        border-color: var(--primary-color);
-        color: var(--primary-color);
-    }
-    .arrow-icon-hero-button
-    {
-        fill: var(--primary-color);
-    }
 }

@@ -24,14 +24,6 @@
 
     gap: 3rem;
 }
-@media (max-width: 768px)
-{
-    .contact-content-container
-    {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
 
 /* SOCIAL MEDIAS */
 .social-media-container
@@ -66,11 +58,6 @@
 
     cursor: pointer;
 }
-.social-media:hover
-{
-    background-color: var(--primary-color);
-    transform: translateX(-0.6rem);
-}
 
 .social-media-icon
 {
@@ -89,10 +76,7 @@
     position: relative;
     background-color: var(--success);
 }
-.email-contact-container-copied:hover
-{
-    background-color: var(--success);
-}
+
 .email-copy-icon-area
 {
     width: 2rem;
@@ -203,11 +187,7 @@
 
     cursor: pointer;
 }
-.contact-submit-button:hover
-{
-    color: var(--primary-color);
-    border: 0.2em solid var(--primary-color);
-}
+
 .contact-submit-button:active
 {
     color: var(--success);

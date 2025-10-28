@@ -110,13 +110,6 @@
     align-items: stretch;
     gap: 2rem;
 }
-@media (max-width: 768px)
-{
-    .projects-container
-    {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-}
 .project-card
 {
     display: flex;
@@ -129,17 +122,6 @@
     padding: 2rem 0rem;
     border-radius: 1rem;
 }
-.project-card:hover
-{
-    transform: translateY(-0.5rem);
-    background-color: var(--primary-color);
-}
-.highlight-card:hover
-{
-    transform: translateY(-0.5rem);
-    background-color: var(--gold);
-}
-
 .project-card-image
 {
     width: 60%;
@@ -195,8 +177,4 @@
     white-space: nowrap;
 
     cursor: pointer;
-}
-.project-card-github-button:hover
-{
-    filter: brightness(80%);
 }

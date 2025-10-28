@@ -124,17 +124,6 @@
 
     cursor: pointer;
 }
-
-.projects-preview-github-button:hover
-{
-    filter: brightness(80%);
-}
-
-.project-preview-card:hover
-{
-    background-color: var(--primary-color);
-}
-
 .control-button
 {
     position: absolute;
@@ -191,16 +180,4 @@
     fill: var(--bg-color-first);
 }
 
-.projects-preview-all-projects-button:hover
-{
-    transform: translateY(-0.2rem);
-    background-color: var(--primary-color);
-}
 
-@media (hover: none)
-{
-    .projects-preview-all-projects-button
-    {
-        background-color: var(--primary-color);
-    }
-}

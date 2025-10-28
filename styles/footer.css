@@ -17,20 +17,10 @@ footer
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
     padding: var(--menu-size) 5%;
-}
-@media (max-width: 768px)
-{
-    .footer-container
-    {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3rem;
-    }
 }
 
 /* IMAGE AREA*/
@@ -44,13 +34,6 @@ footer
 
     gap: 3rem;
 }
-@media (max-width: 768px)
-{
-    .footer-image-area
-    {
-        justify-content: center;
-    }
-}
 .footer-image
 {
     width: 100%;
@@ -61,10 +44,6 @@ footer
 
     border: 0.5rem solid var(--text-color-second);
     border-radius: 16%;
-}
-.footer-image:hover
-{
-    border: 0.5rem solid var(--primary-color);
 }
 .footer-projects-button
 {
@@ -94,35 +73,6 @@ footer
     width: 2rem;
     fill: var(--text-color-second);
 }
-.footer-projects-button:hover
-{
-    background-color: var(--primary-color);
-    transform: translateY(-0.2rem);
-    
-}
-.footer-projects-button:hover p
-{
-    color: var(--bg-color-first);
-}
-.footer-projects-button:hover .arrow-icon-footer-button
-{
-    fill: var(--bg-color-first);
-}
-@media (hover: none)
-{
-    .footer-projects-button
-    {
-        background-color: var(--primary-color);
-    }
-    .footer-projects-button p
-    {
-        color: var(--bg-color-first);
-    }
-    .footer-projects-button .arrow-icon-footer-button
-    {
-        fill: var(--bg-color-first);
-    }
-}
 
 /* SITEMAP AREA*/
 .sitemap
@@ -132,13 +82,6 @@ footer
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-}
-@media (max-width: 768px)
-{
-    .sitemap
-    {
-        justify-content: center;
-    }
 }
 .sitemap-header
 {
@@ -155,10 +98,6 @@ footer
 
     cursor: pointer;
 }
-.sitemap-item:hover
-{
-    color: var(--primary-color);
-}
 
 /* FOOTER CONTACT AREA*/
 .footer-contact
@@ -169,23 +108,11 @@ footer
     align-items: center;
     gap: 1rem;
 }
-@media (max-width: 768px)
-{
-    .footer-contact
-    {
-        flex-direction: row;
-        justify-content: center;
-    }
-}
 .footer-social-media-icon
 {
     width: 4rem;
     fill: var(--bg-color-first);
     cursor: pointer;
-}
-.footer-social-media-icon:hover
-{
-    fill: var(--primary-color);
 }
 
 /* COPYRIGHT AREA*/
