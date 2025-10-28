@@ -41,14 +41,14 @@ section
     width: 100%;
     padding: var(--menu-size) 5%;
     min-height: 90vh;
-    background-color: lightgreen;
+    background-color: var(--bg-color-first);
 
     scroll-margin-top: var(--menu-size); /* Prevent overlap */
 }
 
 section:nth-child(even)
 {
-    background-color: hsl(0, 0%, 70%);
+    background-color: var(--bg-color-second);
 }
 
 p
