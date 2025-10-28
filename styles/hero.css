@@ -83,6 +83,7 @@
 .hero-h1
 {
     font-size: 3rem;
+    font-weight: 700;
     color: var(--text-color-first);
     text-align: center;
 }

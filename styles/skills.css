@@ -10,6 +10,8 @@
 .skills-header
 {
     font-size: 2rem;
+    font-family: var(--font);
+    font-weight: 700;
     color: var(--text-color-first);
 }
 
@@ -34,7 +36,7 @@
 
     padding: 2rem;
     aspect-ratio: 1 / 1;
-    border: 0.2rem solid var(--border-color);
+    border: 0.5rem solid var(--text-color-first);
     border-radius: 16%;
 
 }
@@ -57,6 +59,7 @@
 
 .skill-name
 {
+    font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-color-first);

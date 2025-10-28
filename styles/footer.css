@@ -86,7 +86,7 @@ footer
 {
     font-family: (--font);
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--text-color-second);
 }
 .arrow-icon-footer-button
@@ -148,8 +148,11 @@ footer
 }
 .sitemap-item
 {
-    color: var(--bg-color-first);
+    font-family: var(--font);
     font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--bg-color-first);
+
     cursor: pointer;
 }
 .sitemap-item:hover
@@ -198,11 +201,14 @@ footer
 .copyright-message
 {
     width: 70%;
-    font-size: 1.5rem;
-    color: var(--bg-color-first);
     text-align: center;
+    white-space: normal;
+
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--bg-color-first);
 
     padding: 1em 0rem;
 
-    white-space: normal;
 }

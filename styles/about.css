@@ -10,6 +10,8 @@
 .about-header
 {
     font-size: 2rem;
+    font-family: var(--font);
+    font-weight: 700;
     color: var(--text-color-first);
 }
 
@@ -99,9 +101,13 @@
 .about-me-text
 {
     max-width: 80%;
-    font-size: 1.5rem;
     text-align: justify;
     line-height: 1.6;
+
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color-first);
 }
 @media (max-width: 768px)
 {

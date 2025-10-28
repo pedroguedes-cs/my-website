@@ -13,6 +13,7 @@
 .projects-h1
 {
     font-size: 3rem;
+    font-weight: 700;
     color: var(--text-color-first);
     text-align: center;
 }
@@ -90,7 +91,9 @@
 
 .category-header-name
 {
+    font-family: var(--font);
     font-size: 2rem;
+    font-weight: 700;
     color: var(--text-color-first);
 }
 .highlights-category-header-name
@@ -161,18 +164,20 @@
     width: 100%;
     text-align: center;
 
-    color: var(--bg-color-first);
+    font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--bg-color-first);
 }
 .project-card-content-description
 {
     width: 100%;
     text-align: center;
 
-    color: var(--bg-color-second);
+    font-family: var(--font);
     font-size: 1.2rem;
     font-weight: 400;
+    color: var(--bg-color-second);
 }
 .project-card-github-button
 {

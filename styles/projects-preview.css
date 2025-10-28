@@ -9,6 +9,8 @@
 .projects-preview-header
 {
     font-size: 2rem;
+    font-family: var(--font);
+    font-weight: 700;
     color: var(--text-color-first);
 }
 .projects-preview-container
@@ -89,9 +91,10 @@
     width: 100%;
     text-align: center;
 
-    color: var(--bg-color-first);
+    font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--bg-color-first);
 }
 
 .project-preview-card-description
@@ -99,23 +102,23 @@
     width: 100%;
     text-align: center;
 
-    color: var(--bg-color-second);
+    font-family: var(--font);
     font-size: 1.2rem;
     font-weight: 400;
+    color: var(--bg-color-second);
 }
 
 .projects-preview-github-button
 {
-    background-color: var(--bg-color-first);
-
     font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-color-first);
-
+    
     padding: 0.7em 1em;
     border: none;
     border-radius: 0.5em;
+    background-color: var(--bg-color-first);
 
     white-space: nowrap;
 
@@ -169,7 +172,7 @@
 
     font-family: (--font);
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--bg-color-first);
 
     background-color: var(--text-color-first);
