@@ -1,26 +1,25 @@
 #hero
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
 
-    padding: 0% 5%;
+    padding: var(--menu-size) 5%;
 
     scroll-margin-top: 0;
 }
 
 .hero-my-image
 {
-    width: 35%;
+    width: 70%;
     min-width: 200px;
     aspect-ratio: 1 / 1;
 
     object-fit: cover;
     object-position: top;
 
-    border: solid 0.5rem var(--bg-color-first);
     border-radius: 16%;
 
     animation: float 8s ease-in-out infinite;
@@ -36,7 +35,7 @@
 
     50%
     {
-        transform: translateY(-20px);
+        transform: translateY(-2rem);
     }
 
     100%
@@ -51,7 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .hero-text-container
@@ -64,14 +63,14 @@
 
 .hero-p1
 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: var(--text-color-second);
     text-align: center;
 }
 
 .hero-h1
 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     color: var(--text-color-first);
     text-align: center;
@@ -79,7 +78,7 @@
 
 .hero-p2
 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--text-color-second);
     text-align: center;
 }
@@ -87,9 +86,9 @@
 .hero-buttons-container
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
 }
 
@@ -97,7 +96,7 @@
 {
     width: 100%;
     font-family: var(--font);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: var(--bg-color-first);
 
@@ -121,7 +120,7 @@
     gap: 1rem;
 
     font-family: var(--font);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: var(--text-color-first);
 
@@ -139,4 +138,27 @@
 {
     width: 2rem;
     fill: var(--text-color-first);
+}
+
+
+@media (min-width: 768px)
+{
+    #hero
+    {
+        flex-direction: row;
+        padding: 0% 5%;
+    }
+    .hero-my-image
+    {
+        width: 40%;
+    }
+    .hero-buttons-container
+    {
+        flex-direction: row;
+    }
+}
+
+@media (hover: hover) and (pointer: fine)
+{
+
 }
