@@ -6,6 +6,8 @@
 
     --font: "Poppins", sans-serif;
 
+    --headers-size: 2.4rem;
+
     --bg-color-first: hsl(0, 0%, 95%);
     --bg-color-second: hsl(0, 0%, 90%);
     --bg-color-third: hsl(0, 0%, 85%);

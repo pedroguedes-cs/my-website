@@ -8,7 +8,7 @@
 }
 .projects-preview-header
 {
-    font-size: 2rem;
+    font-size: var(--headers-size);
     font-family: var(--font);
     font-weight: 700;
     color: var(--text-color-first);
