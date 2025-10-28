@@ -19,7 +19,7 @@
 {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 0.8fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 0.8fr));
     justify-content: center;
     align-items: center;
 
@@ -50,6 +50,6 @@
 
 .skill-icon
 {
-    width: 10rem;
+    width: 8rem;
     fill: var(--text-color-first);
 }

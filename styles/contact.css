@@ -18,9 +18,9 @@
 .contact-content-container
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
 
     gap: 3rem;
 }
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items:stretch;
 
 
     gap: 1rem;
@@ -73,7 +73,6 @@
 }
 .email-contact-container-copied
 {
-    position: relative;
     background-color: var(--success);
 }
 
@@ -92,6 +91,7 @@
     fill: var(--bg-color-first); 
 }
 
+/*
 .email-tooltip
 {
     font-family: var(--font);
@@ -116,6 +116,7 @@
 {
     display: block;
 }
+*/
 
 /* FORMS */
 .contact-form-area
@@ -173,13 +174,13 @@
 .contact-submit-button
 {
     font-family: var(--font);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-color-first);
     
     background-color: var(--bg-color-first);
 
-    padding: 0.7em 1em;
+    padding: 1.5em 2em;
     border: 0.2em solid var(--text-color-first);
     border-radius: 0.5em;
 

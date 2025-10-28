@@ -1,4 +1,6 @@
 /* COPY EMAIL USERNAME */
+
+/*
 let emailContainer = document.querySelector('.js-email-contact-container');
 let emailUsername = document.querySelector('.js-email-username');
 let username = emailUsername.textContent;
@@ -33,4 +35,4 @@ function copyEmailUsername()
         
     }, 2000)
 }
-
+*/

@@ -23,13 +23,6 @@
     gap: 2rem;
     position: relative;
 }
-@media (max-width: 768px)
-{
-    .projects-preview-container
-    {
-        width: 80%;
-    }
-}
 .project-preview-card
 {
     width: 100%;
