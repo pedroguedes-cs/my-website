@@ -133,6 +133,14 @@
     border-color: var(--primary-color);
 }
 
+@media (hover: none)
+{
+    .hero-contact-button
+    {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+}
 .hero-projects-button
 {
     width: 100%;
@@ -172,4 +180,17 @@
 .hero-projects-button:hover .arrow-icon-hero-button
 {
     fill: var(--primary-color);
+}
+
+@media (hover: none)
+{
+    .hero-projects-button
+    {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+    .arrow-icon-hero-button
+    {
+        fill: var(--primary-color);
+    }
 }

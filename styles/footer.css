@@ -80,6 +80,18 @@ footer
 
     cursor: pointer;
 }
+.footer-projects-button p
+{
+    font-family: (--font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color-second);
+}
+.arrow-icon-footer-button
+{
+    width: 2rem;
+    fill: var(--text-color-second);
+}
 .footer-projects-button:hover
 {
     background-color: var(--primary-color);
@@ -94,18 +106,20 @@ footer
 {
     fill: var(--bg-color-first);
 }
-.footer-projects-button p
+@media (hover: none)
 {
-    font-family: (--font);
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-color-second);
-}
-
-.arrow-icon-footer-button
-{
-    width: 2rem;
-    fill: var(--text-color-second);
+    .footer-projects-button
+    {
+        background-color: var(--primary-color);
+    }
+    .footer-projects-button p
+    {
+        color: var(--bg-color-first);
+    }
+    .footer-projects-button .arrow-icon-footer-button
+    {
+        fill: var(--bg-color-first);
+    }
 }
 
 /* SITEMAP AREA*/
@@ -173,13 +187,20 @@ footer
 .copyright-area
 {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: var(--text-color-first);
 }
 .copyright-message
 {
+    width: 60%;
     font-size: 1.5rem;
     color: var(--bg-color-first);
     text-align: center;
 
     padding: 1em 0rem;
+
+    white-space: normal;
 }

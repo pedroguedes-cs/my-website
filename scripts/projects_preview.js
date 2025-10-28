@@ -43,37 +43,6 @@ function renderProjectsPreview()
 renderProjectsPreview();
 
 
-
-// SET CARDS HEIGHT
-
-function calculateCardHeight()
-{
-    let cards = document.querySelectorAll('.project-preview-card');
-    let cardsContainer = document.querySelector('.projects-preview-container');
-
-    let maxHeight = 0;
-
-    cards.forEach((card) => {
-        card.style.display = 'flex';
-        const currentHeight = card.offsetHeight;
-        if (currentHeight > maxHeight) 
-        {
-            maxHeight = currentHeight;
-        }
-        card.style.display = "";
-    })
-
-    cardsContainer.style.height = `${maxHeight}px`;
-}
-
-window.addEventListener('resize', calculateCardHeight);
-
-calculateCardHeight();
-
-
-
-
-
 // SLIDER RUNNING
 // HTML elements
 const sliderCardsArray = document.querySelectorAll('.project-preview-card');

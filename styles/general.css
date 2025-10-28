@@ -12,6 +12,7 @@ html
 {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    scroll-padding-top: 18vh;
     overflow-x: hidden;
 }
 
@@ -33,6 +34,7 @@ main
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15vh;
 
     padding-bottom: 15vh;
 }
@@ -41,7 +43,6 @@ section
 {
     width: 90%;
     min-height: 100vh;
-    padding-top: 15vh;
 }
 
 p
