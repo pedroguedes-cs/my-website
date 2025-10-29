@@ -1,12 +1,14 @@
 import { projectsData } from "../data/projects_data.js";
 
 // HTML SLIDER CONTENT
-let projectsPreviewContainer = document.querySelector('.js-projects-preview-slider');
+const projectsPreviewContainer = document.querySelector('.js-projects-preview-slider-container');
 
 
 function renderProjectsPreview()
 {
-    let projectsPreviewHTML = '<div class="projects-preview-slider-content js-projects-preview-slider-content">';
+    let projectsPreviewHTML = ` <div class="projects-preview-slider-mask js-projects-preview-slider-mask">
+                                        <div class="projects-preview-slider-content js-projects-preview-slider-content">`;
+
     let cardsCounter = 0;
 
     for (let category = 0; category < projectsData.length; category++)
@@ -20,8 +22,8 @@ function renderProjectsPreview()
                 projectsPreviewHTML += `    <div class="project-preview-card">
                                                 <img class="project-preview-card-image" src="${projectsData[category].categoryProjects[project].projectImageSource}" alt="Project">
                                                 <div class="project-preview-card-content">
-                                                    <h3 class="project-preview-card-name">${projectsData[category].categoryProjects[project].projectName}</h3>
-                                                    <p class="project-preview-card-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
+                                                        <h3 class="project-preview-card-name">${projectsData[category].categoryProjects[project].projectName}</h3>
+                                                        <p class="project-preview-card-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
                                                 </div>
                                                 <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="projects-preview-github-button">GitHub</button></a>
                                             </div>`;
@@ -29,7 +31,9 @@ function renderProjectsPreview()
         }
     }
 
-    projectsPreviewHTML += '</div>'
+    projectsPreviewHTML += `    </div>
+                            </div>`;
+
 
     if (cardsCounter > 0)
     {
@@ -58,14 +62,14 @@ nextButton.addEventListener('click', () => {
     clearTimeout(timeoutId);
     clearInterval(intervalId);
     nextSlide();
-    timeoutId = setTimeout(() => {intervalId = setInterval(() => {nextSlide()}, 6000)}, 8000);
+    timeoutId = setTimeout(() => {intervalId = setInterval(() => {nextSlide()}, 8000)}, 4000);
 })
 
 previousButton.addEventListener('click', () => {
     clearTimeout(timeoutId);
     clearInterval(intervalId);
     previousSlide();
-    timeoutId = setTimeout(() => {intervalId = setInterval(nextSlide, 6000)}, 8000);
+    timeoutId = setTimeout(() => {intervalId = setInterval(nextSlide, 8000)}, 4000);
 })
 
 function nextSlide()
@@ -97,4 +101,10 @@ function showSlide()
     sliderContent.style.transform = `translateX(-${index * 100}%)`;
 }
 
-showSlide();
+function initializeSlider()
+{
+    showSlide();
+    intervalId = setInterval(nextSlide, 8000);
+}
+
+initializeSlider();
