@@ -194,3 +194,11 @@
     color: var(--success);
     border: 0.2em solid var(--success);
 }
+
+@media (min-width: 1024px)
+{
+    .contact-content-container
+    {
+        flex-direction: row;
+    }
+}

@@ -30,10 +30,12 @@ function renderProjectsPage()
                 projectPageHTML += ` <div class="project-card highlight-card">
                                         <img class="project-card-image highlight-card-image" src="${projectsData[category].categoryProjects[project].projectImageSource}" alt="Project">
                                         <div class="project-card-content highlight-card-content">
-                                            <h3 class="project-card-content-name highlight-card-content-name">${projectsData[category].categoryProjects[project].projectName}</h3>
-                                            <p class="project-card-content-description highlight-card-content-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
+                                            <div class="project-card-text-area">
+                                                <h3 class="project-card-content-name highlight-card-content-name">${projectsData[category].categoryProjects[project].projectName}</h3>
+                                                <p class="project-card-content-description highlight-card-content-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
+                                            </div>
+                                            <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="project-card-github-button highlight-card-github-button">GitHub</button></a>
                                         </div>
-                                        <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="project-card-github-button highlight-card-github-button">GitHub</button></a>
                                     </div>`;
             }
         }
@@ -63,10 +65,12 @@ function renderProjectsPage()
             projectPageHTML += `<div class="project-card">
                                     <img class="project-card-image" src="${projectsData[category].categoryProjects[project].projectImageSource}" alt="Project">
                                     <div class="project-card-content">
-                                        <h3 class="project-card-content-name">${projectsData[category].categoryProjects[project].projectName}</h3>
-                                        <p class="project-card-content-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
+                                        <div class="project-card-text-area">
+                                            <h3 class="project-card-content-name">${projectsData[category].categoryProjects[project].projectName}</h3>
+                                            <p class="project-card-content-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
+                                        </div>
+                                        <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="project-card-github-button">GitHub</button></a>
                                     </div>
-                                    <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="project-card-github-button">GitHub</button></a>
                                 </div>`;
         }
 

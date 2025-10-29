@@ -53,6 +53,10 @@
     justify-content: flex-start;
     align-items: center;
 }
+.highlights-section
+{
+    background-color: var(--gold)
+}
 .category-section-container
 {
     width: 100%;
@@ -62,15 +66,9 @@
     align-items: center;
     gap: 4rem;
 
-    padding: 3rem 0rem;
-    border: solid 0.5rem var(--text-color-first);
+    border: none;
     border-radius: 1rem;
 }
-.highlights-section-container
-{
-    border: solid 0.5rem var(--gold);
-}
-
 .category-header
 {
     width: 90%;
@@ -86,7 +84,7 @@
 }
 .highlights-category-header-icon
 {
-    fill: var(--gold);
+    fill: var(--bg-color-first);
 }
 
 .category-header-name
@@ -98,14 +96,14 @@
 }
 .highlights-category-header-name
 {
-    color: var(--gold)
+    color: var(--bg-color-first)
 }
 
 .projects-container
 {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 30%));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: stretch;
     gap: 2rem;
@@ -133,6 +131,10 @@
 }
 .project-card-content
 {
+    display: contents;
+}
+.project-card-text-area
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,7 +149,7 @@
     text-align: center;
 
     font-family: var(--font);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: var(--bg-color-first);
 }
@@ -157,7 +159,7 @@
     text-align: center;
 
     font-family: var(--font);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--bg-color-second);
 }
@@ -177,4 +179,35 @@
     white-space: nowrap;
 
     cursor: pointer;
+}
+
+
+@media (min-width: 768px)
+{
+    .project-card
+    {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+                
+        padding: 4rem 0rem;
+    }
+    .project-card-image
+    {
+        width: 30%;
+    }
+    .project-card-content
+    {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .project-card-text-area
+    {
+        width: 100%;
+    }
 }

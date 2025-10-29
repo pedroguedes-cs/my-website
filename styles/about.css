@@ -93,3 +93,15 @@
     border-radius: 1rem;
 }
 
+@media (min-width: 1024px)
+{
+    .about-container
+    {
+        flex-direction: row;
+    }
+    .university-image
+    {
+        max-width: 40%;
+    }
+}
+
