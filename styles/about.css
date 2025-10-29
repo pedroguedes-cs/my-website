@@ -99,9 +99,13 @@
     {
         flex-direction: row;
     }
+    .about-content-container
+    {
+        width: 40%;
+    }
     .university-image
     {
-        max-width: 40%;
+        width: 40%;
     }
 }
 

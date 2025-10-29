@@ -46,7 +46,7 @@ header
 .logo-name
 {
     font-size: var(--headers-size);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--text-color-first);
 }
 
