@@ -22,10 +22,12 @@ function renderProjectsPreview()
                 projectsPreviewHTML += `    <div class="project-preview-card">
                                                 <img class="project-preview-card-image" src="${projectsData[category].categoryProjects[project].projectImageSource}" alt="Project">
                                                 <div class="project-preview-card-content">
+                                                    <div class="project-preview-card-text-area">
                                                         <h3 class="project-preview-card-name">${projectsData[category].categoryProjects[project].projectName}</h3>
                                                         <p class="project-preview-card-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
+                                                    </div>
+                                                    <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="projects-preview-github-button">GitHub</button></a>
                                                 </div>
-                                                <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="projects-preview-github-button">GitHub</button></a>
                                             </div>`;
             }
         }

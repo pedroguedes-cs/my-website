@@ -68,8 +68,11 @@
     border: none;
     border-radius: 16%;
 }
-
 .project-preview-card-content
+{
+    display: contents;
+}
+.project-preview-card-text-area
 {
     display: flex;
     flex-direction: column;
@@ -79,7 +82,6 @@
     
     width: 60%;
 }
-
 .project-preview-card-name
 {
     width: 100%;
