@@ -116,7 +116,7 @@
     align-items: center;
     gap: 2rem;
 
-    background-color: var(--text-color-first);
+    background-color: var(--bg-color-third);
     padding: 2rem 0rem;
     border-radius: 1rem;
 }
@@ -151,7 +151,7 @@
     font-family: var(--font);
     font-size: 1.8rem;
     font-weight: 600;
-    color: var(--bg-color-first);
+    color: var(--text-color-first);
 }
 .project-card-content-description
 {
@@ -161,16 +161,16 @@
     font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 400;
-    color: var(--bg-color-second);
+    color: var(--text-color-second);
 }
 .project-card-github-button
 {
-    background-color: var(--bg-color-first);
+    background-color: var(--text-color-first);
 
     font-family: var(--font);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-color-first);
+    color: var(--bg-color-first);
 
     padding: 1.2em 2em;
     border: none;
@@ -218,7 +218,11 @@
 
 @media (hover: hover) and (pointer: fine)
 {
-    .project-card:hover
+    .project-card:hover .project-card-content-name, .project-card:hover .project-card-content-description
+    {
+        color: var(--primary-color);
+    }
+    .project-card:hover .project-card-github-button
     {
         background-color: var(--primary-color);
     }

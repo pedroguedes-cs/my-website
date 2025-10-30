@@ -222,7 +222,11 @@
 
 @media (hover: hover) and (pointer: fine)
 {
-    .project-preview-card:hover
+    .project-preview-card:hover .project-preview-card-name, .project-preview-card:hover .project-preview-card-description
+    {
+        color: var(--primary-color);
+    }
+    .project-preview-card:hover .projects-preview-github-button
     {
         background-color: var(--primary-color);
     }
