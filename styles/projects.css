@@ -211,3 +211,31 @@
         width: 100%;
     }
 }
+
+@media (hover: hover) and (pointer: fine)
+{
+    .project-card:hover
+    {
+        background-color: var(--primary-color);
+    }
+    .highlight-card:hover
+    {
+        background-color: var(--bg-color-second);
+    }
+    .highlight-card:hover .project-card-content-name, .highlight-card:hover .project-card-content-description
+    {
+        color: var(--gold);
+    }
+    .highlight-card:hover .project-card-github-button
+    {
+        background-color: var(--gold);
+    }
+    .project-card-github-button:hover
+    {
+        filter: brightness(90%);
+    }
+    .project-card-github-button:active
+    {
+        filter: brightness(80%);
+    }
+}
