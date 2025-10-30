@@ -65,18 +65,21 @@ header
     top: 0;
     bottom: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 999;
 
-    width: 16rem;
-    padding: 3rem 0rem;
+    width: 40%;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 8rem;
     
-    background-color: var(--bg-color-second);
+    background-color: var(--bg-color-third);
+    border: none;
+    /*
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0px 0px 10px var(--border-color);*/
 
     display: none;
 }
@@ -108,13 +111,19 @@ header
 {
     width: 100%;
 
-    color: var(--text-color-second);
     font-size: 1.5rem;
     font-weight: 500;
+    color: var(--text-color-first);
 
+    border-bottom: solid 0.2em var(--bg-color-second);
     padding: 3rem 3rem;
 
     cursor: pointer;
+}
+
+.mobile-sidebar-link:nth-child(1)
+{
+    border-top: solid 0.2em var(--bg-color-second);
 }
 
 .hamburguer-icon-hidden
@@ -138,14 +147,14 @@ header
 }
 .desktop-menu-link
 {
-    color: var(--text-color-second);
+    color: var(--text-color-first);
     font-size: 1.5rem;
     font-weight: 500;
 
     cursor: pointer;
 }
 
-.desktop-menu-link:active
+.desktop-menu-link:active, .mobile-sidebar-link:active
 {
     filter: brightness(80%);
 }
@@ -175,7 +184,7 @@ header
 
 @media (hover: hover) and (pointer: fine)
 {
-    .desktop-menu-link:hover
+    .desktop-menu-link:hover, .mobile-sidebar-link:hover
     {
         color: var(--primary-color);
     }

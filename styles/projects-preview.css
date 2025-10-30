@@ -222,7 +222,7 @@
 
 @media (hover: hover) and (pointer: fine)
 {
-    .project-preview-card:hover .project-preview-card-name, .project-preview-card:hover .project-preview-card-description
+    .project-preview-card:hover .project-preview-card-name
     {
         color: var(--primary-color);
     }

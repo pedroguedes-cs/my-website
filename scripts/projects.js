@@ -40,7 +40,6 @@ function renderProjectsPage()
             }
         }
     }
-    console.log('highlights done');
 
 
     projectPageHTML += `                 </div>
@@ -78,7 +77,6 @@ function renderProjectsPage()
                                             </div>
                                         </section>`;
     }
-    console.log('categories done');
 
     projectsArea.innerHTML = projectPageHTML;
 }

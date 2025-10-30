@@ -21,8 +21,6 @@ function applyMode()
 
 function changeLightMode()
 {
-    console.log('Changing color');
-
     if (mode === 1)
     {
         mode = 0;
