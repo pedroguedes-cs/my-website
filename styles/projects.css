@@ -180,6 +180,10 @@
 
     cursor: pointer;
 }
+.project-card-github-button:active
+{
+    filter: brightness(80%);
+}
 
 
 @media (min-width: 768px)
@@ -233,9 +237,5 @@
     .project-card-github-button:hover
     {
         filter: brightness(90%);
-    }
-    .project-card-github-button:active
-    {
-        filter: brightness(80%);
     }
 }

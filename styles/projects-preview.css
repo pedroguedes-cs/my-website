@@ -120,6 +120,10 @@
 
     cursor: pointer;
 }
+.projects-preview-github-button:active
+{
+    filter: brightness(80%);
+}
 .control-button
 {
     position: absolute;
@@ -133,6 +137,10 @@
     border-radius: 16%;
 
     cursor: pointer;
+}
+.control-button:active
+{
+    filter: brightness(80%);
 }
 .previous-button
 {
@@ -173,11 +181,14 @@
 
     cursor: pointer;
 }
-
 .arrow-icon-button
 {
     width: 2rem;
     fill: var(--bg-color-first);
+}
+.projects-preview-all-projects-button:active
+{
+    filter: brightness(80%);
 }
 
 @media (min-width: 1024px)
@@ -219,10 +230,6 @@
     {
         filter: brightness(90%);
     }
-    .projects-preview-github-button:active
-    {
-        filter: brightness(80%);
-    }
     .control-button:hover
     {
         border: solid 0.2rem var(--primary-color);
@@ -231,17 +238,9 @@
     {
         fill: var(--primary-color);
     }
-    .control-button:active
-    {
-        filter: brightness(80%);
-    }
     .projects-preview-all-projects-button:hover
     {
         background-color: var(--primary-color);
         transform: translateY(-0.2em);
-    }
-    .projects-preview-all-projects-button:active
-    {
-        filter: brightness(80%);
     }
 }

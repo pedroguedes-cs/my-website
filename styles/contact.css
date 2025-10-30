@@ -58,7 +58,10 @@
 
     cursor: pointer;
 }
-
+.social-media:active
+{
+    filter: brightness(80%);
+}
 .social-media-icon
 {
     width: 4rem;

@@ -65,6 +65,10 @@ footer
 
     cursor: pointer;
 }
+.footer-projects-button:active
+{
+    filter: brightness(80%);
+}
 .footer-projects-button p
 {
     font-family: (--font);
@@ -108,6 +112,10 @@ footer
 
     cursor: pointer;
 }
+.sitemap-item:active
+{
+    filter: brightness(80%);
+}
 
 /* FOOTER CONTACT AREA*/
 .footer-contact
@@ -123,6 +131,10 @@ footer
     width: 4rem;
     fill: var(--bg-color-first);
     cursor: pointer;
+}
+.footer-social-media-icon:active
+{
+    filter: brightness(80%);
 }
 
 /* COPYRIGHT AREA*/

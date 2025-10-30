@@ -140,6 +140,11 @@
     fill: var(--text-color-first);
 }
 
+.hero-projects-button:active, .hero-contact-button:active
+{
+    filter: brightness(80%);
+}
+
 
 @media (min-width: 768px)
 {

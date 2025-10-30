@@ -26,7 +26,7 @@ function renderProjectsPreview()
                                                         <h3 class="project-preview-card-name">${projectsData[category].categoryProjects[project].projectName}</h3>
                                                         <p class="project-preview-card-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
                                                     </div>
-                                                    <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="projects-preview-github-button">GitHub</button></a>
+                                                    <a href="${projectsData[category].categoryProjects[project].projectLink}" target="_blank"><button class="projects-preview-github-button">GitHub</button></a>
                                                 </div>
                                             </div>`;
             }

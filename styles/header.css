@@ -142,6 +142,11 @@ header
     cursor: pointer;
 }
 
+.desktop-menu-link:active
+{
+    filter: brightness(80%);
+}
+
 @media (min-width: 1024px)
 {
     .mobile-sidebar

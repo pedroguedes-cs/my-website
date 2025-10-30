@@ -34,7 +34,7 @@ function renderProjectsPage()
                                                 <h3 class="project-card-content-name highlight-card-content-name">${projectsData[category].categoryProjects[project].projectName}</h3>
                                                 <p class="project-card-content-description highlight-card-content-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
                                             </div>
-                                            <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="project-card-github-button highlight-card-github-button">GitHub</button></a>
+                                            <a href="${projectsData[category].categoryProjects[project].projectLink}" target="_blank"><button class="project-card-github-button highlight-card-github-button">GitHub</button></a>
                                         </div>
                                     </div>`;
             }
@@ -69,7 +69,7 @@ function renderProjectsPage()
                                             <h3 class="project-card-content-name">${projectsData[category].categoryProjects[project].projectName}</h3>
                                             <p class="project-card-content-description">${projectsData[category].categoryProjects[project].projectDescription}</p>
                                         </div>
-                                        <a href="${projectsData[category].categoryProjects[project].projectLink}"><button class="project-card-github-button">GitHub</button></a>
+                                        <a href="${projectsData[category].categoryProjects[project].projectLink}" target="_blank"><button class="project-card-github-button">GitHub</button></a>
                                     </div>
                                 </div>`;
         }
