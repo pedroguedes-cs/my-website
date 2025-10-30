@@ -18,7 +18,7 @@ header
 
     background-color: var(--bg-color-first);
 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px var(--bg-color-third);
 }
 
 /* LOGO AREA */
@@ -125,13 +125,16 @@ header
 /* DESKTOP MENU */
 .desktop-menu 
 {
+    display: contents;
+    display: none;
+}
+.desktop-menu-links-area
+{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 4rem;
-
-    display: none;
 }
 .desktop-menu-link
 {
@@ -147,6 +150,13 @@ header
     filter: brightness(80%);
 }
 
+.light-mode-button
+{
+    width: 3rem;
+    fill: var(--text-color-first);
+    cursor: pointer;
+}
+
 @media (min-width: 1024px)
 {
     .mobile-sidebar
@@ -159,7 +169,7 @@ header
     }
     .desktop-menu
     {
-        display: flex;
+        display: contents;
     }
 }
 
@@ -168,5 +178,9 @@ header
     .desktop-menu-link:hover
     {
         color: var(--primary-color);
+    }
+    .light-mode-button:hover
+    {
+        fill: var(--primary-color);
     }
 }

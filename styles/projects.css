@@ -20,7 +20,7 @@
 .hero-arrow-down
 {
     width: 4rem;
-
+    fill: var(--text-color-first);
     animation: float 1s ease-in-out infinite;
 }
 
