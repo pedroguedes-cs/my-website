@@ -226,10 +226,6 @@
     {
         background-color: var(--primary-color);
     }
-    .highlight-card:hover
-    {
-        background-color: var(--bg-color-second);
-    }
     .highlight-card:hover .project-card-content-name
     {
         color: var(--gold);
