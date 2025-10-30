@@ -108,6 +108,9 @@ header
 {
     width: 3rem;
     display: inline-block;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 16%;
     fill: var(--text-color-first);
     cursor: pointer; 
 }
@@ -170,16 +173,19 @@ header
     cursor: pointer;
 }
 
-.desktop-menu-link:active, .mobile-sidebar-link:active
-{
-    filter: brightness(80%);
-}
-
 .light-mode-button
 {
     width: 3rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 16%;
     fill: var(--text-color-first);
     cursor: pointer;
+}
+
+.desktop-menu-link:active, .mobile-sidebar-link:active, .close-icon:active, .light-mode-button:active
+{
+    filter: brightness(80%);
 }
 
 @media (min-width: 1024px)
@@ -204,8 +210,8 @@ header
     {
         color: var(--primary-color);
     }
-    .light-mode-button:hover
+    .light-mode-button:hover, .close-icon:hover
     {
-        fill: var(--primary-color);
+        background-color: var(--bg-color-third);
     }
 }

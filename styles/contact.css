@@ -94,33 +94,6 @@
     fill: var(--bg-color-first); 
 }
 
-/*
-.email-tooltip
-{
-    font-family: var(--font);
-    color: var(--bg-color-first);
-    font-size: 1rem;
-    font-weight: 500;
-
-    background-color: var(--success);
-    padding: 1em;
-    border: none;
-    border-radius: 0.4em;
-
-    white-space: nowrap;
-
-    position: absolute;
-    left: -8rem;
-    display: none;
-
-    pointer-events: none;
-}
-.email-tooltip-show
-{
-    display: block;
-}
-*/
-
 /* FORMS */
 .contact-form-area
 {
@@ -216,5 +189,9 @@
     {
         color: var(--primary-color);
         border: 0.2em solid var(--primary-color);
+    }
+    .email-contact-container-copied:hover
+    {
+        background-color: var(--success);
     }
 }

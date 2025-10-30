@@ -1,11 +1,10 @@
 /* COPY EMAIL USERNAME */
 
-/*
+
 let emailContainer = document.querySelector('.js-email-contact-container');
 let emailUsername = document.querySelector('.js-email-username');
 let username = emailUsername.textContent;
 let copyIconArea = document.querySelector('.email-copy-icon-area');
-let tooltip = document.querySelector('.email-tooltip');
 
 let timeoutId = null;
 
@@ -22,17 +21,11 @@ function copyEmailUsername()
 
     emailContainer.classList.add('email-contact-container-copied');
 
-    tooltip.classList.add('email-tooltip-show');
-
-
     timeoutId = setTimeout(() => 
     {
         copyIconArea.innerHTML = `                            <svg class="email-copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288 64C252.7 64 224 92.7 224 128L224 384C224 419.3 252.7 448 288 448L480 448C515.3 448 544 419.3 544 384L544 183.4C544 166 536.9 149.3 524.3 137.2L466.6 81.8C454.7 70.4 438.8 64 422.3 64L288 64zM160 192C124.7 192 96 220.7 96 256L96 512C96 547.3 124.7 576 160 576L352 576C387.3 576 416 547.3 416 512L416 496L352 496L352 512L160 512L160 256L176 256L176 192L160 192z"/></svg>`;
 
         emailContainer.classList.remove('email-contact-container-copied');
-        
-        tooltip.classList.remove('email-tooltip-show');
-        
     }, 2000)
 }
-*/
+
