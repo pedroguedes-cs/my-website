@@ -218,7 +218,7 @@
 
 @media (hover: hover) and (pointer: fine)
 {
-    .project-card:hover .project-card-content-name, .project-card:hover .project-card-content-description
+    .project-card:hover .project-card-content-name /*, .project-card:hover .project-card-content-description*/
     {
         color: var(--primary-color);
     }
@@ -230,7 +230,7 @@
     {
         background-color: var(--bg-color-second);
     }
-    .highlight-card:hover .project-card-content-name, .highlight-card:hover .project-card-content-description
+    .highlight-card:hover .project-card-content-name/*, .highlight-card:hover .project-card-content-description*/
     {
         color: var(--gold);
     }
