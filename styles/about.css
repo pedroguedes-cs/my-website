@@ -50,12 +50,14 @@
 .about-university-card-icon
 {
     width: 3rem;
+    fill: var(--text-color-first);
 }
 
 .about-university-card-text
 {
     font-size: 1.8rem;
     font-weight: 600;
+    color: var(--text-color-first);
     text-align: center;
 }
 
@@ -106,6 +108,18 @@
     .university-image
     {
         width: 40%;
+    }
+}
+
+@media (hover: hover) and (pointer: fine)
+{
+    .about-university-card:hover .about-university-card-icon
+    {
+        fill: var(--primary-color);
+    }
+    .about-me-text:hover strong
+    {
+        color: var(--primary-color);
     }
 }
 

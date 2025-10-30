@@ -36,7 +36,7 @@
 
     padding: 2rem;
     aspect-ratio: 1 / 1;
-    border: 0.5rem solid var(--text-color-first);
+    border: 0.4rem solid var(--text-color-first);
     border-radius: 16%;
 
 }
@@ -52,4 +52,21 @@
 {
     width: 8rem;
     fill: var(--text-color-first);
+}
+
+@media (hover: hover) and (pointer: fine)
+{
+    .skill-card:hover
+    {
+        border: 0.4rem solid var(--primary-color);
+        transform: translateY(-0.5em);
+    }
+    .skill-card:hover .skill-name
+    {
+        color: var(--primary-color);
+    }
+    .skill-card:hover .skill-icon
+    {
+        fill: var(--primary-color);
+    }
 }

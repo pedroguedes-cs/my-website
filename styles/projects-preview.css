@@ -208,3 +208,40 @@
     }
 
 }
+
+@media (hover: hover) and (pointer: fine)
+{
+    .project-preview-card:hover
+    {
+        background-color: var(--primary-color);
+    }
+    .projects-preview-github-button:hover
+    {
+        filter: brightness(90%);
+    }
+    .projects-preview-github-button:active
+    {
+        filter: brightness(80%);
+    }
+    .control-button:hover
+    {
+        border: solid 0.2rem var(--primary-color);
+    }
+    .control-button:hover .chevronIcon
+    {
+        fill: var(--primary-color);
+    }
+    .control-button:active
+    {
+        filter: brightness(80%);
+    }
+    .projects-preview-all-projects-button:hover
+    {
+        background-color: var(--primary-color);
+        transform: translateY(-0.2em);
+    }
+    .projects-preview-all-projects-button:active
+    {
+        filter: brightness(80%);
+    }
+}

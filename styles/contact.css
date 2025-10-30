@@ -202,3 +202,16 @@
         flex-direction: row;
     }
 }
+
+@media (hover: hover) and (pointer: fine)
+{
+    .social-media:hover
+    {
+        background-color: var(--primary-color);
+    }
+    .contact-submit-button:hover
+    {
+        color: var(--primary-color);
+        border: 0.2em solid var(--primary-color);
+    }
+}

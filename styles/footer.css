@@ -187,3 +187,24 @@ footer
         display: contents;
     }
 }
+
+@media (hover: hover) and (pointer: fine)
+{
+    .footer-projects-button:hover
+    {
+        background-color: var(--primary-color);
+        transform: translateY(-0.2em);
+    }
+    .sitemap-item:hover
+    {
+        color: var(--primary-color);
+    }
+    .footer-social-media-icon:hover
+    {
+        fill: var(--primary-color);
+    }
+    .copyright-area:hover span
+    {
+        color: var(--primary-color);
+    }
+}
