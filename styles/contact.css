@@ -17,6 +17,7 @@
 
 .contact-content-container
 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,12 +29,11 @@
 /* SOCIAL MEDIAS */
 .social-media-container
 {
-    flex: 1;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:stretch;
-
 
     gap: 1rem;
 }
@@ -49,6 +49,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
 
     background-color: var(--text-color-first);
 
@@ -73,6 +74,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--bg-color-first);
+    word-break: break-all;
 }
 .email-contact-container-copied
 {
@@ -97,18 +99,22 @@
 /* FORMS */
 .contact-form-area
 {
-    flex: 1;
+    width: 100%;
 }
 .contact-form
 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
+    border: 1rem pink;
 }
 .input-area
 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -176,6 +182,13 @@
     .contact-content-container
     {
         flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    .social-media-container, .contact-form-area
+    {
+        width: 40%;
     }
 }
 
