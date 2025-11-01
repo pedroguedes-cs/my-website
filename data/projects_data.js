@@ -32,6 +32,13 @@ export const projectsData =
             projectLink: 'https://github.com/pedroguedes-cs/rock-paper-scissors',
             projectImageSource: 'data/projects_images/rock-paper-scissors.png',
             projectDescription: 'A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript',
+            isHighlight: false
+        },
+        {
+            projectName: 'This Website',
+            projectLink: 'https://github.com/pedroguedes-cs/www.pedroguedes.dev',
+            projectImageSource: 'data/projects_images/this-website.png',
+            projectDescription: 'My personal website built with HTML, CSS, and JavaScript.',
             isHighlight: true
         }
     ]
