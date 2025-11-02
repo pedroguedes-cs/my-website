@@ -1,10 +1,10 @@
-# 🌐 www.pedroguedes.dev
+# 🌐 My Personal Website — [www.pedroguedes.dev](https://www.pedroguedes.dev)
 
-My personal website — a place to showcase everything I build and create.
+A space to showcase everything I build and create.
 
-🔗 **Live site:** [https://www.pedroguedes.dev](https://www.pedroguedes.dev)  
-📱 **QR Code:**  
-![QR Code](./qrcode/qrcode.png)
+> 🔗 **Live site:** [https://www.pedroguedes.dev](https://www.pedroguedes.dev)  
+> 📱 **QR Code:**  
+> ![QR Code](./qrcode/qrcode.png)
 
 ---
 
@@ -12,9 +12,16 @@ My personal website — a place to showcase everything I build and create.
 - **HTML5** — structure  
 - **CSS3** — design and layout  
 - **JavaScript (ES6+)** — interactivity  
-- **Responsive Design** — adaptable layout  
+- **Responsive Design** — mobile-first, adaptable layout  
 - **DOM Generation** — dynamic elements  
 
 ---
 
-💡 Designed and developed from scratch by **Pedro Guedes**.
+### ⚙️ Key Features
+- Projects carousel with smooth transitions  
+- Dark mode toggle using localStorage  
+- Consistent design system with custom CSS variables  
+
+---
+
+💡 Designed and developed from scratch by **Pedro Guedes**
