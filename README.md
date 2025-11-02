@@ -20,7 +20,8 @@ A space to showcase everything I build and create.
 ### ⚙️ Key Features
 - Projects carousel with smooth transitions  
 - Dark mode toggle using localStorage  
-- Consistent design system with custom CSS variables  
+- Consistent design system with custom CSS variables
+- Subtle CSS animations for dynamic visuals
 
 ---
 
