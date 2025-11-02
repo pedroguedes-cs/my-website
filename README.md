@@ -2,9 +2,9 @@
 
 A space to showcase everything I build and create.
 
-> 🔗 **Live site:** [https://www.pedroguedes.dev](https://www.pedroguedes.dev)  
-> 📱 **QR Code:**  
-> ![QR Code](./qrcode/qrcode.png)
+🔗 **Live site:** [https://www.pedroguedes.dev](https://www.pedroguedes.dev)  
+📱 **QR Code:**  
+![QR Code](./qrcode/qrcode.png)
 
 ---
 
